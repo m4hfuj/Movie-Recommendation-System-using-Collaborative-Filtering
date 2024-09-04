@@ -1,4 +1,4 @@
-Movie Recommendation System using Collaborative Filtering 
+# Movie Recommendation System using Collaborative Filtering 
 
 Collaborative filtering predicts user preferences by analyzing patterns of behavior across users and items. It uses a matrix to map user interactions, such as movie ratings, and plots these as data points in a vector space. Similarity between users or items is then measured by calculating the distances between these points.
 
