@@ -11,4 +11,6 @@ The process begins with data preprocessing, which involves loading the datasets 
 
 A similarity matrix is created based on the normalized ratings. The system calculates a personalized similarity score for each movie by adjusting precomputed scores according to the user's specific rating. This generates an array of similarity scores, helping identify movies that match the user’s preferences.
 
+
+
 The similarity scores are aggregated to produce personalized recommendations. For each rated movie, similarity scores with other movies are calculated, summed, and sorted to highlight the top recommendations. The result is a set of movies most aligned with the user's tastes.
